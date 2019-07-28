@@ -1,0 +1,16 @@
+[package]
+name = "orbit_op"
+version = "0.1.0"
+authors = ["Andrius Navasaitis <anavasaitis@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+yew = "0.6"
+failure = "0.1.5"
+serde = { version = "1.0", features = ["derive"] }
+
+[dependencies.typed-html]
+version = "0.2"
+features = ["yew_html"]
+git = "https://github.com/SafariMonkey/typed-html"
+branch = "yew-support"
